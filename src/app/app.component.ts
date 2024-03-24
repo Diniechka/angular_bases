@@ -1,10 +1,10 @@
-import { Component } from '@angular/core';
+import { Component } from '@angular/core';//explica como funciona el componente
 
-@Component({
+@Component({ //componente principal
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'bases';
+  public title : string = 'Hola Angular';
+
 }
