@@ -3,11 +3,10 @@ import { BrowserModule } from '@angular/platform-browser';//importacions propias
 
 import { CounterModule } from './counter/counter.module';
 import { HeroesModule } from './heroes/heroes.module';
+import { NausikaaModule } from './nausikaa/nausikaa.module';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-
-
 
 
 @NgModule({
@@ -20,6 +19,7 @@ import { AppComponent } from './app.component';
     CounterModule,
     AppRoutingModule,
     HeroesModule,
+    NausikaaModule
   ],
   providers: [],
   bootstrap: [AppComponent]
